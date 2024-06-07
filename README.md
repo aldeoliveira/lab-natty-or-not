@@ -1,51 +1,25 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
 # Título do Projeto Extremamente Aesthetic ;)
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Uma partida de xadrez fictícia criada com IA Generativa.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- IA Generativa **[ChatGPT](https://chat.openai.com)** para roteirização e revisão;
+- Engine de xadrez de código aberto **[Stockfish 14](https://stockfishchess.org/blog/2021/stockfish-14/)** disponível no plataforma de xadrez gratuita **[Lichess](https://lichess.org/)**;
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Pedi para que o ChatGPT gerasse uma partida de xadrez, com três condições:
+1. Deveria simular o embate entre dois jogadores experientes;
+2. A abertura usada deveria ser uma variante da Defesa Siciliana;
+3. A partida deveria terminar em uma vitória rápida do Primeiro Jogador (o que usa as peças brancas).
+Analisei o resultado na plataforma do Lichess para avaliar se os lances fazem sentido, corrigir possíveis erros de notação, e talvez fazer pequenas alterações para que realmente pareça uma partida jogada entre humanos.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+A primeira partida gerada pelo ChatGPT não continha erros de notação, mas o Segundo Jogador (o que usa as peças pretas) comete um erro grosseiro no lance 13, que, apesar de seguir uma certa lógica, dificilmente seria cometido por um jogador experiente. Portanto, pedi para que a IA gerasse uma nova partida, usando outra variante da mesma defesa.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+O resultado foi uma partida que inicialmente tem uma melhor qualidade, mas cujos 6 ou 7 últimos lances não fazem sentido, e que resulta ainda numa posição perdedora para as brancas, apesar de a IA declarar a desistência do oponente.
 
-### Exemplos e Insigths
+Minha abordagem então foi de utilizar os 20 primeiros lances da segunda partida e alterar o final, concluindo-a com uma combinação que seria facilmente vista por um jogador razoavelmente experiente.
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+## 💭 Reflexão
+Em áreas que exigem um conhecimento mais técnico parece ainda ser difícil fazer com que uma IA generativa simule uma criação humana. No entanto, esse problema pode ser em certa parte contornado inserindo mais especificações, e dando alguns retoques no resultado final. 
