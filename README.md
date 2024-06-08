@@ -1,11 +1,11 @@
-# Título do Projeto Extremamente Aesthetic ;)
+# Uma fanfic enxadrística
 
 ## 📒 Descrição
 Uma partida de xadrez fictícia criada com IA Generativa.
 
 ## 🤖 Tecnologias Utilizadas
 - IA Generativa **[ChatGPT](https://chat.openai.com)** para roteirização e revisão;
-- Engine de xadrez de código aberto **[Stockfish 14](https://stockfishchess.org/blog/2021/stockfish-14/)** disponível no plataforma de xadrez gratuita **[Lichess](https://lichess.org/)**;
+- Engine de xadrez de código aberto **[Stockfish 14](https://stockfishchess.org/blog/2021/stockfish-14/)** disponível na plataforma de xadrez gratuita **[Lichess](https://lichess.org/)**;
 
 ## 🧐 Processo de Criação
 Pedi para que o ChatGPT gerasse uma partida de xadrez, com três condições:
@@ -17,9 +17,13 @@ Analisei o resultado na plataforma do Lichess para avaliar se os lances fazem se
 ## 🚀 Resultados
 A primeira partida gerada pelo ChatGPT não continha erros de notação, mas o Segundo Jogador (o que usa as peças pretas) comete um erro grosseiro no lance 13, que, apesar de seguir uma certa lógica, dificilmente seria cometido por um jogador experiente. Portanto, pedi para que a IA gerasse uma nova partida, usando outra variante da mesma defesa.
 
-O resultado foi uma partida que inicialmente tem uma melhor qualidade, mas cujos 6 ou 7 últimos lances não fazem sentido, e que resulta ainda numa posição perdedora para as brancas, apesar de a IA declarar a desistência do oponente.
+O resultado foi uma partida que inicialmente tem uma melhor qualidade, mas cujos 4 últimos lances não fazem sentido, e que resulta ainda numa posição perdedora para as brancas, apesar de a IA declarar a desistência do oponente.
 
-Minha abordagem então foi de utilizar os 20 primeiros lances da segunda partida e alterar o final, concluindo-a com uma combinação que seria facilmente vista por um jogador razoavelmente experiente.
+Minha abordagem então foi de utilizar os 22 primeiros lances da segunda partida e alterar o final, concluindo-a com uma combinação que seria facilmente vista por um jogador razoavelmente experiente.
+
+## Visualização
+
+Abra esta página do [chesstempo](https://pt.chesstempo.com/pgn-viewer/) e copie o conteúdo do arquivo ```pgn/game.pgn```, que pode ser aberto por um simples editor de texto, para a caixa com a label "Insira o PGN". Em seguida clique em "Carregar" e pronto, você poderá ver toda a partida no tabuleiro, com as minhas anotações.
 
 ## 💭 Reflexão
-Em áreas que exigem um conhecimento mais técnico parece ainda ser difícil fazer com que uma IA generativa simule uma criação humana. No entanto, esse problema pode ser em certa parte contornado inserindo mais especificações, e dando alguns retoques no resultado final. 
+Em áreas que exigem um conhecimento mais técnico parece ainda ser difícil fazer com que uma IA generativa simule uma criação humana. No entanto, esse problema pode ser em certa medida contornado inserindo mais especificações e dando alguns retoques no resultado final. 
